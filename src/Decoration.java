@@ -2,13 +2,9 @@ import java.util.ArrayList;
 
 public class Decoration {
 
-    ArrayList<Perk> perks; // perk(s) of the decoration
-    int decoTier; // tier (1 to 4) of the decoration
+    ArrayList<Perk> perks; // perk(s) de la decoration
+    int decoTier; // tier (1 à 4) de la decoration
 
-    public Decoration(ArrayList<Perk> perks, int tier) {
-        this.perks = perks;
-        this.decoTier = tier;
-    }
 
     public Decoration(ArrayList<Perk> perks) {
         this.perks = perks;
@@ -18,5 +14,10 @@ public class Decoration {
         } else {
             this.decoTier = perks.get(0).decoTier;
         }
+    }
+
+    public Decoration(ArrayList<Perk> perks, int tier) {
+        this(perks);
+        this.decoTier = tier;
     }
 }
