@@ -1,3 +1,4 @@
+sep=,
 id,rarity,slot,name,skills
 1,5,1,Antidote Jewel 1,"[{'id': 1, 'level': 1, 'modifiers': {}, 'description': 'Reduces the number of times you take poison damage.', 'skill': 1, 'skillName': 'Poison Resistance'}]"
 2,5,1,Geology Jewel 1,"[{'id': 264, 'level': 1, 'modifiers': {}, 'description': 'Allows you to gather one extra time from bonepiles.', 'skill': 87, 'skillName': 'Geologist'}]"
